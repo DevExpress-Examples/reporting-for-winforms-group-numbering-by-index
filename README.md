@@ -19,6 +19,6 @@ The following image illustrates output for a report designed to group informatio
 
 ## Documentation
 
-- [Group Numbering by Index]()
+- [Group Numbering by Index](https://docs.devexpress.com/XtraReports/404915/detailed-guide-to-devexpress-reporting/use-expressions/expressions-tasks-and-solutions/group-numbering-by-index?v=24.1)
 
 
