@@ -5,9 +5,9 @@
 <!-- default badges end -->
 # Visual Studio Report Designer - Group Numbering by Index
 
-The following example builds a report that displays a multi-level numbered list. For this purpose, report controls use GroupIndex() and CurrentRowIndexInGroup() functions in their data binding expressions to return group and row indexes. 
+The following example generates a report with a multi-level numbered list. To achieve this report layout, report controls use `GroupIndex()` and `CurrentRowIndexInGroup()` functions within data binding expressions (to return group and row indexes).
 
-The following image illustrates the resulting report that groups products by category and discontinued state:
+The following image illustrates output for a report designed to group information by product category and discontinued state:
 
 ![](./images/report.png)
 
