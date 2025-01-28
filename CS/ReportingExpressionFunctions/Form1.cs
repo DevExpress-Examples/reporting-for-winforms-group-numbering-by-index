@@ -1,3 +1,4 @@
+using DevExpress.XtraReports.UI;
 namespace ReportingExpressionFunctions
 {
     public partial class Form1 : Form
@@ -5,6 +6,9 @@ namespace ReportingExpressionFunctions
         public Form1()
         {
             InitializeComponent();
+            Report1 report = new Report1();
+            report.ShowRibbonPreviewDialog();
+           
         }
     }
 }
