@@ -1,3 +1,4 @@
+Imports System.Windows.Forms
 Imports DevExpress.XtraReports.UI
 
 Namespace ReportingExpressionFunctions
