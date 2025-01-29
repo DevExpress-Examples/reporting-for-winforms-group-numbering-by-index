@@ -1,5 +1,3 @@
-Imports System.Windows.Forms
-
 Namespace ReportingExpressionFunctions
 
     Friend Module Program
@@ -9,9 +7,10 @@ Namespace ReportingExpressionFunctions
         ''' </summary>
         <STAThread>
         Sub Main()
-            Call Application.EnableVisualStyles()
-            Application.SetCompatibleTextRenderingDefault(False)
-            Call Application.Run(New Form1())
+            ' To customize application configuration such as set high DPI settings or default font,
+            ' see https://aka.ms/applicationconfiguration.
+            ApplicationConfiguration.Initialize()
+            Application.Run(New Form1())
         End Sub
     End Module
 End Namespace
